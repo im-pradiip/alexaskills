@@ -37,51 +37,38 @@ def build_response(session_attributes, speechlet_response):
 
 ques = [["Saurabh","Bro i met u on the day of M.C.A interview. You are a great friend and a good human being. May this year brings you a lot of happiness and joy....keep calm coz gurditta is here"],
         ["Sonam","Prnav join next big boss yar....You would definitely impress every one there becuse you are a really good guy and could win it...."],
-        ["Hemant","Happy Bdyyy Bhai Jyada din nhi hue apni dosti ko lekin hm bhut ache dost bne h Tu mst rhta h hmesha , khush rhta h bs coding krte time pagl ho jata h .... Chrome m itne tabs kon kholta h Bhai Tu hmare group ka stud londa h Chl ab 2 3 lines m bhi chipka deta hu ...Bhgwan tujhe khush rkhe ...Tu apne maa baap ka naam roshan kre ...Tu hr ladki s baat kre .... Koi tujhe mil bhi jaye bhgwan kre .... PS : Ab main baat sun itni ram ktha isliye likhi h kyuki party tu alg dega , tanisha alg koi compromise nhi  &Again Happy bdyyy "],
-        ["Pradeep","You know all about me, I know all about you. We’re best friends. Since we can read each other’s minds I don’t need a creative message. Happy birthday contactbaaz.May u got a contact book as a gift from Google drive"],
-        ["Tanisha","Happiest biryhday to the most zealous and zestful person i have ever met\
-I wish u all the happiness and love on this spcial day\
-Keep shining n glowing\
-May god Bless u with lots n lots of bliss & success, good health in the year ahead and always\
-Party hard\
-Have a magical day with lots of wonderful surprises\
-Best wishes\
-Har din ho khushiyon se bhara,\
-Ho teri sari khwaishein puri,\
-Hai tu humare grp ka sitara,\
-Chehra tera Khila Rahe Gulaab Ki Tarah, Naam tera Roshan ho sooraj Ki Tarah,\
-Muskurate raho tu hamesha aise hi\
-Yeh khuda se duaa hai meri\
-Janamdin ki hardik shubhkamnaye"],
-        ["Nitin","Are bhai bhai bhai bhai, pornhub, i mean pranav, tu iklauta masiha hai ducs ka aur ekmev bhgwan hmara. Bro wish you all the happiness and more contacts of beautiful girls in your phone"],
-        ["Abhishek","Happiest birthday to the grammar-savvy, tech-savvy, people-savvy guy of DUCS. I wish you more people and more people in your contacts list ;-) Always be kind, helpful and cheerful, the way you are.\
-P.S. Agar koi grammatical mistake ho toh half marks kaat liyo yaar."],
-        ["Tanya kanojia","Happy happy happiest birthday to you pranav God bless you swthrt god gives each and every success 􀀀􀀀􀀀 salle kutte kammene tu phela ladhka dost bana tha Mera ISS CLG me I remember"],
+        ["Hemant","Happy Bdyyy Bhai Jyada din nhi hue apni dosti ko lekin hm bhut ache dost bne h "],
+        ["Pradeep","You know all about me, I know all about you. We’re best friends."],
+        ["Tanisha","Happiest biryhday to the most zealous and zestful person i have ever met Janamdin ki hardik shubhkamnaye"],
+        ["Nitin","Are bhai bhai bhai bhai, pornhub, i mean pranav, tu iklauta masiha hai ducs ka aur ekmev bhgwan hmara."],
+        ["Abhishek","Happiest birthday to the grammar-savvy, tech-savvy, people-savvy guy of DUCS. I wish you more people and more people in your contacts list."],
+        ["Tanya","Happy happy happiest birthday to you pranav"],
         ["Ridhi","JAB BHI HO KOI TERE SATH HO TOH BORE HONE KI KOI BAAT NA HO"],
-        ["Navya","Show off boy....but sweet ,kind hearted and good human being.khush raho aise hi maje karte raho aur apne contact list badhate raho.Happy birthday to you ladke"],
-        ["Shrishti","Wish you a very very Happy Birthday . Pornab(YOU) have a category of Art of Happy Living (with FULL HD CLARITY) , LOL ! College aajaya kar. Stay blessed and just don't stay hard"],
+        ["Navya","Show off boy. but sweet ,kind hearted and good human being. khush raho aise hi maje karte raho aur apne contact list badhate raho. Happy birthday to you ladke"],
+        ["Shrishti","Wish you a very very Happy Birthday . Pornab(YOU) have a category of Art of Happy Living (with FULL HD CLARITY)"],
         ["Aditya","Very Very Happy Birthday Bhai."],
-        ["Sonali","Happy Birthday Praniiii..aj ka din tera h khush rh abaad rh.. wse wo to rhta h apni tarif kr krke..thri km hi krlia kr hume b bolne ka mauka dia kr..ab aage ke dino mei pdhlio.. wrna saalo lg jaane h"]
+        ["Sonali","Happy Birthday Praniiii."]
         ]
 
-ansInfo = ["Government has decided to give special allowances to all the Indian centerarian.",
-           "Lt. Colonel Shergil was award posthumous gallanty award.",
-           "The word Anonymous is used by the authors to conceal their identity from its readers.",
-           "We are planning to go for a matinee show on next friday.",
-           "The cosmopolite wandered in almost all the countries of the before finally settling in India.",
-           "Epidemic in West Bengal took 7000 lives last year.",
-           "Most of the cough syrups are soporific in nature.",
-           "Lion is a carnivorous animals.",
-           "World Cup Final ended in a draw.",
-           "Monarchy is still prevalent in some countries.",
-           "Democracy has proved much better than autocracy.",
-            "There are very few countries with origarchy form of a country."
+task = ["Take shorts from someone and wear them.",
+           "Mimicry of Pradeep",
+        "Go and say to a girl after seeing you I have no mood of making a girlfriend.",
+           "Dance on any item song",
+           "Propose a boy in SRK pose",
+           "Couple dance with hemant",
+           "Blind Fold",
+           "Daramsharas",
+           "Play aam churi chapan churi game with Pradeep",
+           "Cat Walk",
+           "Give honest reviews about everyone in DUCS Besties",
+           "Buy Chocolates for Everyone",
+           "Praise the seniors of DUCS."
         ]
-hint=["The word starts with a C and synonym is oldster and gloden ager.",
+hint=["Sweet and Sour relationship with me.",
     "The word starts with a P and synonym is postmortem and postobit.",
-    "The word starts with an A and synonym is nameless and unacknowledged.",
-    "The word starts with a M and synonym is movie and entertainment.",
-    "The word starts with a C and synonym is civilian and commoner.",
+    "Your emotional Support in DUCS.",
+    "Always goes together wherever you go, we are always together.",
+    "Innocent and Lovely Person",
     "The word starts with an E and synonym is communicable and catching.",
     "The word starts with a S and synonym is narcotic and dull.",
     "The word starts with a C and synonym is flesh eating and predatory.",
@@ -103,6 +90,8 @@ askedQues = []
 session_attributes = {}
 rulecount = 0
 quesAnswered = True
+tv=0
+tdone=True
 
 # --------------- Functions that control the skill's behavior ------------------
 
@@ -165,8 +154,9 @@ def phrase(intent, session):
     global currQues
     global askedQues
     global quesAnswered
+    global tv
 
-    card_title = "Phrase"
+    card_title = "Wishes"
 
     if askedQuesCount == 0:
         init = "Alright! Let's see how many friends you know well. "
@@ -230,13 +220,15 @@ def get_answer(intent, session):
 
     global score
     global quesAnswered
+    global tv
+
 
     card_title = "Answer"
 
     if quesAnswered == True:
         speech_output = "<say-as interpret-as=\"interjection\">Haanji.</say-as> What you are trying to pull buddy?<break/> You have already answered the question."
         card_output = "Haanji! What you are trying to pull buddy? You have already answered the question."
-        reprompt_text = "You can know more about this question's answer by saying, tell me example, or, you can move to the next question by saying, next question."
+        reprompt_text = "You can move to the next question by saying, next question."
 
         should_end_session = False
         return build_response(session_attributes, build_speechlet_response(card_title, speech_output, card_output, reprompt_text, should_end_session))    
@@ -260,8 +252,11 @@ def get_answer(intent, session):
     else:
         speak = "Oh no! That answer is incorrect. The correct answer is " + ques[currQues][0] + ". Say tell me example to know about the correct answer. " 
         speak1= "<audio src='soundbank://soundlibrary/ui/gameshow/amzn_ui_sfx_gameshow_negative_response_01'/>"\
-                "<say-as interpret-as=\"interjection\">Oh no.</say-as>That answer is incorrect. <break/> The correct answer is <emphasis level='moderate'>" + ques[currQues][0] + "</emphasis><break/> .Say <emphasis level='moderate'>tell me example</emphasis> to know about the correct answer.  "
-    session_attributes['score'] = score
+                "<say-as interpret-as=\"interjection\">Oh no.</say-as>That answer is incorrect. <break/> The correct answer is <emphasis level='moderate'>" + ques[currQues][0] + "</emphasis><break/>."\
+                " Your task is "+task[tv]+"<break time='12s'/>"\
+                " Say <emphasis level='moderate'>task code</emphasis> to move further.  "
+        tv=tv+1
+    session_attributes['score']=score
     
     quesAnswered = True
     speech_output = speak1 
@@ -339,7 +334,7 @@ def current_score(intent, session):
     should_end_session = False
 
     return build_response(session_attributes, build_speechlet_response(card_title, speech_output, card_output, reprompt_text, should_end_session))    
-
+'''
 def tell_me_example(intent, session):
 
     card_title = "Tell Me Example"
@@ -359,7 +354,7 @@ def tell_me_example(intent, session):
     should_end_session = False
     
     return build_response(session_attributes, build_speechlet_response(card_title, speech_output, card_output, reprompt_text, should_end_session))  
-
+'''
 def give_me_hint(intent, session):
 
     card_title = "Give Me Hint"
@@ -388,6 +383,7 @@ def replay_quiz(intent, session):
     global askedQues
     global quesAnswered
     global quesAsked
+    global tv
     
     score = 0
     currQues = -1
@@ -395,6 +391,7 @@ def replay_quiz(intent, session):
     askedQues = []
     session_attributes = {}
     quesAnswered = True
+    tv=0
     
     return phrase(intent, session)    
 
@@ -507,6 +504,7 @@ def on_session_started(session_started_request, session):
     global askedQuesCount
     global askedQues
     global quesAnswered
+    global tv
 
     session_attributes = {}
     score = 0
@@ -514,6 +512,7 @@ def on_session_started(session_started_request, session):
     askedQuesCount = 0
     askedQues = []
     quesAnswered = True
+    tv=0
 
 def on_launch(launch_request, session):
     return get_welcome_response()
@@ -563,8 +562,8 @@ session_attributes = {}
 def lambda_handler(event, context):
     
     if event['session']['new']:
-	    on_session_started({'requestId': event['request']['requestId']},event['session'])
-		
+        on_session_started({'requestId': event['request']['requestId']},event['session'])
+	   
     if event['request']['type'] == "LaunchRequest":
         return on_launch(event['request'], event['session'])
     elif event['request']['type'] == "IntentRequest":
